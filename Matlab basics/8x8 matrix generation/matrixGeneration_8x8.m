@@ -1,3 +1,5 @@
+% 8x8 matrix using [0,255] random values
+% Written by Shiv Kumar Gurjar (BT23ECE084)
 clc;
 clear all;
 close all;
