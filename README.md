@@ -3,7 +3,7 @@
 
 ---
 
-## 01. Certificate Upload
+## 00. Certificate Upload
 - **MATLAB Onramp:**  
   https://matlabacademy.mathworks.com/progress/share/certificate.html?id=709f15dd-a8ab-460c-aeef-5c5b1b88504b
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 02. MATLAB Basic Operations
+## 01. MATLAB Basic Operations
 - Generate an **8×8 matrix** with values in the range **[0, 255]**
 - Image operations:
   - Read and display image
