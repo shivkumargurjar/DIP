@@ -19,3 +19,19 @@
   - RGB to grayscale conversion
   - Black & white image conversion
   - Histogram equalization using `histeq()` command
+    
+---
+
+## 03. Histogram Equalization (Values & Image)
+- Histogram equalization performed **manually without using `histeq()`**
+- Steps followed:
+  - Calculation of histogram from pixel intensity values
+  - Computation of PDF and CDF
+  - Intensity transformation using CDF
+- Histogram equalization also performed using MATLAB’s **built-in `histeq()` function**
+- Comparison shown between:
+  - Original grayscale image
+  - Manually equalized image
+  - `histeq()` equalized image
+  - Corresponding histograms
+- This experiment demonstrates contrast enhancement on both **intensity values** and **image level**
