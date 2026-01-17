@@ -1,8 +1,21 @@
-# DIP
-Digital Image Processing
-01 certificate upload:
-  MATLAB onramp:https://matlabacademy.mathworks.com/progress/share/certificate.html?id=709f15dd-a8ab-460c-aeef-5c5b1b88504b&
-  SImulink onramp:https://matlabacademy.mathworks.com/progress/share/certificate.html?id=e4268a38-b00e-423d-a433-77f08c7710b3&
-02 Matlab Basics opration:
-  a. 8x8 matrix generation with values[0,255]
-  b. Image read and show. rgb and black-white image conversions and histogram equalizer of image using histeq() command.
+# DIP  
+**Digital Image Processing**
+
+---
+
+## 01. Certificate Upload
+- **MATLAB Onramp:**  
+  https://matlabacademy.mathworks.com/progress/share/certificate.html?id=709f15dd-a8ab-460c-aeef-5c5b1b88504b
+
+- **Simulink Onramp:**  
+  https://matlabacademy.mathworks.com/progress/share/certificate.html?id=e4268a38-b00e-423d-a433-77f08c7710b3
+
+---
+
+## 02. MATLAB Basic Operations
+- Generate an **8×8 matrix** with values in the range **[0, 255]**
+- Image operations:
+  - Read and display image
+  - RGB to grayscale conversion
+  - Black & white image conversion
+  - Histogram equalization using `histeq()` command
