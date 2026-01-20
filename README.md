@@ -22,7 +22,7 @@
     
 ---
 
-## 03. Histogram Equalization (Values & Image)
+## 02. Histogram Equalization (Values & Image)
 - Histogram equalization performed **manually without using `histeq()`**
 - Steps followed:
   - Calculation of histogram from pixel intensity values
