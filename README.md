@@ -83,4 +83,11 @@ Wavelet Transform is a multi-resolution technique used in image processing. It d
 
 **Implementation:** MATLAB code performs 2-level 2D discrete wavelet transform (DWT) using `'haar'` wavelet. It displays all subbands and reconstructs the original image with minimal error.
 
+---
+
+## 07. Tambola (Housie) Ticket Generator
+This program generates a valid **3×9 Tambola ticket** with **15 unique numbers**.  
+Numbers are filled **column-wise** following standard Tambola ranges (1–9, 10–19, …, 80–90).  
+Each column contains **1 or 2 numbers**, and each row is adjusted to have **exactly 5 numbers**, ensuring compliance with official Tambola rules.  
+The ticket is generated **randomly** and displayed in **matrix form**.
   
