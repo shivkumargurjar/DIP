@@ -90,4 +90,32 @@ This program generates a valid **3×9 Tambola ticket** with **15 unique numbers*
 Numbers are filled **column-wise** following standard Tambola ranges (1–9, 10–19, …, 80–90).  
 Each column contains **1 or 2 numbers**, and each row is adjusted to have **exactly 5 numbers**, ensuring compliance with official Tambola rules.  
 The ticket is generated **randomly** and displayed in **matrix form**.
-  
+
+---
+
+## 08. Arithmetic Coding (Range-Based Digital Coding)
+This program implements **Arithmetic Coding**, a method of **lossless data compression** that encodes a sequence of symbols into a **single fractional number** between 0 and 1.  
+Each symbol is assigned a **probability**, and a **cumulative range** is calculated for all symbols.  
+The message is encoded by **iteratively narrowing the interval** based on the symbol sequence, resulting in a final range.  
+The **compressed code** is any number within this final interval, which represents the entire message efficiently.  
+This method is particularly useful for **probabilistic source coding**, achieving **better compression than fixed-length codes** like Huffman for non-uniform distributions.
+
+---
+
+## 09. JPEG Image Compression
+This program demonstrates **JPEG image compression** using both a **manual approach** and MATLAB’s **built-in functions**.  
+In the manual approach, the image is first **level-shifted**, then divided into **8×8 blocks**.  
+Each block undergoes a **Discrete Cosine Transform (DCT)**, followed by **quantization** using the standard JPEG quantization matrix.  
+The quantized coefficients are then **dequantized** and the **inverse DCT** is applied to reconstruct the image.  
+In the built-in approach, the **`imwrite` function** compresses the image directly into JPEG format at a specified quality factor.  
+The results show that **compression introduces minor losses**, mainly in high-frequency components, while the visual quality remains largely preserved.
+
+---
+
+## 10. Hypothesis Testing (Z-Test for Statistical Decision)
+This program performs **hypothesis testing** to evaluate statistical claims using the **one-sample Z-test** when the population standard deviation is known.  
+Given a population mean claim, a sample mean, and the standard deviation, the program calculates the **Z-test statistic**.  
+The **null hypothesis (H0)** and **alternative hypothesis (H1)** are defined according to the claim (e.g., left-tailed, right-tailed, or two-tailed test).  
+The calculated Z value is then compared with the **critical Z value** at a specified significance level to **accept or reject the claim**.  
+This method demonstrates how statistical evidence can be used to make **data-driven decisions** about population parameters.
+
